@@ -148,7 +148,7 @@ if __name__ == '__main__':
     
         
     parser.add_argument("--console", choices=["yes", "no"],
-        default="yes", type=str, help="output log in console, default \"yes\"")
+        default="no", type=str, help="output log in console, default \"no\"")
     
     args = parser.parse_args()
     
